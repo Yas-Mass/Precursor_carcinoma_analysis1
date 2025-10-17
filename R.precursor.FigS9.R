@@ -1,8 +1,11 @@
 # Supplementary Figure S9
 #########################
+rm(list=ls())
+
 
 # MSI analysis START
 ########################################################################################################################################
+# upload the dataset
 df1 <- FigureS9
 
 # "density.overall.CD3CD4"
@@ -389,4 +392,5 @@ wilcox.test(CA.nmh$density.overall.CD3CD8.regulatory, CA.mh$density.overall.CD3C
 ################################################################################
 # MSI END
 # END Supplementary Figure S9
+
 
