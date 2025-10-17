@@ -1,3 +1,6 @@
+# Supplementary Figure S6
+#########################
+
 rm(list=ls())
 
 library(tidyverse)
@@ -340,4 +343,5 @@ test_result <- wilcox.test(density.laminapropria.CD3CD8.regulatory ~ d.dysplasia
 print (test_result)
 ##########################################################################################################################################################
 #END Supplementary Figure S6
+
 
