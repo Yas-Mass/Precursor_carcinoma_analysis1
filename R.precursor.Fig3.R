@@ -1,3 +1,5 @@
+# Figure 3
+##########################
 rm(list=ls())
 
 # Load R libraries
@@ -206,3 +208,4 @@ ggsave("Fig3H.png", plot = last_plot(), device = "png", path = "output", scale =
 ggsave("Fig3H.png", plot = last_plot(), device = "png", path = "output", scale = 1, width = 400, height = 300, units = "mm", dpi = 400, limitsize = TRUE)
 ################################################################################################################################################################
 #END Figure 3
+
