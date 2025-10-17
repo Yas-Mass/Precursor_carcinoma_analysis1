@@ -3,6 +3,7 @@
 
 # START for Figure 4 A to D
 ##################################################################################
+# upload the dataset
 d1 <- Figure4AD.and.FigureS5.non.FOXP3
 
 # Mann-whitney's U test (carcinoma, 4CA vs.......)
@@ -79,5 +80,6 @@ test_result <- wilcox.test(density.laminapropria.CD3CD8 ~ d.path , data = d2)
 print(test_result)
 ################################################################################
 # END for Figure 4 A to D
+
 
 
