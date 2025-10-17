@@ -1,31 +1,10 @@
 # Supplementary Figure S8
 #########################
-
 rm(list=ls())
-
-library(tidyverse)
-library(RColorBrewer)
-library(gplots)
-library(ggplot2)
-library(readxl)
-library(ggcorrplot)
-library(corrplot)
-library(ggpubr)
-library(dplyr)
-library(gridExtra)
-library(violinplotter)
-library(spatstat)
-library(ggpubr)
-library(tidyverse)
-library(RColorBrewer)
-library(tidyr)
-
 
 # upload the dataset
 FigS8AtoD <- readRDS("FigS8AtoD.rds")
 FigS8EtoH <- readRDS("FigS8EtoH.rds")
-
-
 
 
 #START Supplementary Figure S8
@@ -449,4 +428,5 @@ test_result <- wilcox.test(density.laminapropria.CD3CD8 ~ d.age , data = d1)
 print (test_result)
 #######################################################################################################################################
 #END Supplementary Figure S8
+
 
