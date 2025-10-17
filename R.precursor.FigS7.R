@@ -2,7 +2,7 @@
 #########################
 rm(list=ls())
 
-# Upload the dataset
+# upload the dataset
 df0 <- FigS7.AtoD
 df1 <- FigS7.EtoH
 
@@ -229,6 +229,7 @@ wilcox.test(CA.nmh$density.laminapropria.CD3CD8, serrated$density.laminapropria.
 wilcox.test(CA.nmh$density.laminapropria.CD3CD8, CA.mh$density.laminapropria.CD3CD8)
 ############################################################################################################################
 #wilcox.test END
+
 
 
 
