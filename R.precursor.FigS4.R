@@ -23,11 +23,5 @@ ggsave(file="FigS4.png", f1, scale = 1, width = 450, height = 160, units = "mm",
 
 
 
-#Save
-ggsave(file="FigS4.png", f1, scale = 1, width = 450, height = 160, units = "mm",dpi = 300, limitsize = TRUE, path= "output")   
-##########################################################################################################################################################
-#END Supplementary Figure S4
-
-
 
 
