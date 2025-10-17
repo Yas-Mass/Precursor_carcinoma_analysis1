@@ -1,27 +1,6 @@
 # Figure 4 E to P
 #################
-
 rm(list=ls())
-
-# Load R libraries
-# If you did not experience the installation, please first install the same name package from R packages
-library(tidyverse)
-library(RColorBrewer)
-library(gplots)
-library(ggplot2)
-library(readxl)
-library(ggcorrplot)
-library(corrplot)
-library(ggpubr)
-library(dplyr)
-library(gridExtra)
-library(violinplotter)
-library(spatstat)
-library(ggpubr)
-library(tidyverse)
-library(RColorBrewer)
-library(tidyr)
-
 
 # upload the dataset
 Fig4.1 <- readRDS("Fig4.1.rds")
@@ -319,3 +298,4 @@ print (test_result)
 ##########################################################################################################################################################
 
 #END Figure 4
+
