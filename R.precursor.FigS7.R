@@ -1,6 +1,11 @@
 df0 <- FigS7.AtoD
 df1 <- FigS7.EtoH
 
+df0$density.laminapropria.CD3CD4 <- as.numeric(df0$density.laminapropria.CD3CD4)
+df0$density.laminapropria.CD3CD8 <- as.numeric(df0$density.laminapropria.CD3CD8)
+df1$density.laminapropria.CD3CD4 <- as.numeric(as.character(df1$density.laminapropria.CD3CD4))
+df1$density.laminapropria.CD3CD8 <- as.numeric(as.character(df1$density.laminapropria.CD3CD8))
+
 # START Supplementary Foigure S7 
 ################################################################################
 
