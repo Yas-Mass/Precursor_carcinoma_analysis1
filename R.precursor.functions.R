@@ -1,4 +1,4 @@
-# Load R libraries
+# Firstly, load R libraries
 # If you did not experience the installation, please first install the same name package from R packages
 library(tidyverse)
 library(RColorBrewer)
@@ -16,19 +16,4 @@ library(ggpubr)
 library(tidyverse)
 library(RColorBrewer)
 library(tidyr)
-
-
-# upload the dataset
-Fig3BtoG.MannUtest <- readRDS("Fig3BtoG.MannUtest.rds")
-Fig3BtoG <- readRDS("Fig3BtoG.rds")
-Fig3H <- readRDS("Fig3H.rds")
-Fig4.1 <- readRDS("Fig4.1.rds")
-Fig4.2 <- readRDS("Fig4.2.rds")
-Fig5AtoB <- readRDS("Fig5AtoB.rds")
-FigS4 <- readRDS("FigS4.rds")
-FigS5 <- readRDS("FigS5.rds")
-FigS6 <- readRDS("FigS6.rds")
-FigS7 <- readRDS("FigS7.rds")
-FigS8AtoD <- readRDS("FigS8AtoD.rds")
-FigS8EtoH <- readRDS("FigS8EtoH.rds")
-FigS8ItoL <- readRDS("FigS8ItoL.rds")
+library(writexl)
