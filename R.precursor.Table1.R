@@ -1,6 +1,8 @@
 # Table 1
 ##########
 
+
+# upload the dataset
 d1 <- Table1
 
 # density.epithelial.CD3CD4 START
@@ -767,4 +769,5 @@ group2 <- d1_sub2$density.laminapropria.CD3CD8[d1_sub2$d.stage == "3serrated"]
 wilcox.test(group1, group2, alternative = "two.sided")
 ##########################################################################################################
 # density.laminapropria.CD3CD8 END
+
 
