@@ -11,7 +11,7 @@ df0$density.laminapropria.CD3CD8 <- as.numeric(df0$density.laminapropria.CD3CD8)
 df1$density.laminapropria.CD3CD4 <- as.numeric(as.character(df1$density.laminapropria.CD3CD4))
 df1$density.laminapropria.CD3CD8 <- as.numeric(as.character(df1$density.laminapropria.CD3CD8))
 
-# START Supplementary Foigure S7 
+# START Supplementary Figure S7 
 ################################################################################
 
 # START Stage analysis
@@ -229,5 +229,6 @@ wilcox.test(CA.nmh$density.laminapropria.CD3CD8, serrated$density.laminapropria.
 wilcox.test(CA.nmh$density.laminapropria.CD3CD8, CA.mh$density.laminapropria.CD3CD8)
 ############################################################################################################################
 #wilcox.test END
+
 
 
