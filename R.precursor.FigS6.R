@@ -1,25 +1,6 @@
 # Supplementary Figure S6
 #########################
-
 rm(list=ls())
-
-library(tidyverse)
-library(RColorBrewer)
-library(gplots)
-library(ggplot2)
-library(readxl)
-library(ggcorrplot)
-library(corrplot)
-library(ggpubr)
-library(dplyr)
-library(gridExtra)
-library(violinplotter)
-library(spatstat)
-library(ggpubr)
-library(tidyverse)
-library(RColorBrewer)
-library(tidyr)
-
 
 # upload the dataset
 FigS6 <- readRDS("FigS6.rds")
@@ -343,5 +324,6 @@ test_result <- wilcox.test(density.laminapropria.CD3CD8.regulatory ~ d.dysplasia
 print (test_result)
 ##########################################################################################################################################################
 #END Supplementary Figure S6
+
 
 
