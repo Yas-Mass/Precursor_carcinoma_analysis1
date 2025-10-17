@@ -1,3 +1,6 @@
+# Figure 4 E to P
+#################
+
 rm(list=ls())
 
 # Load R libraries
@@ -314,4 +317,5 @@ d1 <- Fig4.2 %>% filter(d.dysplasia %in% c("1normal", "4carcinoma"))
 test_result <- wilcox.test(density.laminapropria.CD3CD8 ~ d.dysplasia , data = d1)
 print (test_result)
 ##########################################################################################################################################################
+
 #END Figure 4
