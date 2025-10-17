@@ -2,6 +2,7 @@
 #########################
 rm(list=ls())
 
+# upload the dataset
 d1 <- FigureS5.FOXP3levels
 colnames (d1)
 
@@ -674,5 +675,6 @@ test_result <- wilcox.test(density.laminapropria.CD3CD8.regulatory ~ d.path , da
 print(test_result)
 ################################################################################
 # END for Figure S5 Regulatory
+
 
 
