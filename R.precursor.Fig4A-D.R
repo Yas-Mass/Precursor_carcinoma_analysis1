@@ -1,5 +1,5 @@
-# Figure 4
-##############
+# Figure 4 A to D
+#################
 
 # START for Figure 4 A to D
 ##################################################################################
@@ -79,4 +79,5 @@ test_result <- wilcox.test(density.laminapropria.CD3CD8 ~ d.path , data = d2)
 print(test_result)
 ################################################################################
 # END for Figure 4 A to D
+
 
