@@ -1,4 +1,4 @@
-TITLE: Colorectal Neoplasm: T-cell subset analysis in the precursor lesions and carcinoma
+TITLE: T-cell Subset Analysis in Colorectal Neoplasms: From Precursor Lesions to Carcinoma
 
 COMMENT-1: Please, firstly, load functions and then run the R codes. If necessary, please add any required R packages or functions to make your R environment ready for this analysis.
 
