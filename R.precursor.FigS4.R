@@ -1,26 +1,6 @@
 Supplementary Figure S4
 #######################
-
 rm(list=ls())
-
-# Load R libraries
-# If you did not experience the installation, please first install the same name package from R packages
-library(tidyverse)
-library(RColorBrewer)
-library(gplots)
-library(ggplot2)
-library(readxl)
-library(ggcorrplot)
-library(corrplot)
-library(ggpubr)
-library(dplyr)
-library(gridExtra)
-library(violinplotter)
-library(spatstat)
-library(ggpubr)
-library(tidyverse)
-library(RColorBrewer)
-library(tidyr)
 
 # upload the dataset
 FigS4 <- readRDS("FigS4.rds")
@@ -47,6 +27,7 @@ ggsave(file="FigS4.png", f1, scale = 1, width = 450, height = 160, units = "mm",
 ggsave(file="FigS4.png", f1, scale = 1, width = 450, height = 160, units = "mm",dpi = 300, limitsize = TRUE, path= "output")   
 ##########################################################################################################################################################
 #END Supplementary Figure S4
+
 
 
 
