@@ -38,12 +38,11 @@ ggsave(file="FigS4.png", f1, scale = 1, width = 450, height = 160, units = "mm",
 ##########################################################################################################################################################
 #END Supplementary Figure S4
 
-oxplot(alpha=0.7, outlier.shape = NA) +
-  scale_y_continuous(limits = c(0, 8000))+
-  guides(fill="none")  
+
 
 #Save
 ggsave(file="FigS4.png", f1, scale = 1, width = 450, height = 160, units = "mm",dpi = 300, limitsize = TRUE, path= "output")   
 ##########################################################################################################################################################
 #END Supplementary Figure S4
+
 
