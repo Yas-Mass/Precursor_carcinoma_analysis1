@@ -1,29 +1,6 @@
 # Figure 5
 ##########
-
-
 rm(list=ls())
-
-# Load R libraries
-# If you did not experience the installation, please first install the same name package from R packages
-library(tidyverse)
-library(RColorBrewer)
-library(gplots)
-library(ggplot2)
-library(readxl)
-library(ggcorrplot)
-library(corrplot)
-library(ggpubr)
-library(dplyr)
-library(gridExtra)
-library(violinplotter)
-library(spatstat)
-library(ggpubr)
-library(tidyverse)
-library(RColorBrewer)
-library(tidyr)
-
-
 
 # upload the dataset
 Fig5AtoB <- readRDS("Fig5AtoB.rds")
@@ -546,3 +523,4 @@ res
 # STEP3 END 
 
 # Figure 5 END
+
