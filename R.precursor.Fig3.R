@@ -2,26 +2,6 @@
 ##########################
 rm(list=ls())
 
-# Load R libraries
-# If you did not experience the installation, please first install the same name package from R packages
-library(tidyverse)
-library(RColorBrewer)
-library(gplots)
-library(ggplot2)
-library(readxl)
-library(ggcorrplot)
-library(corrplot)
-library(ggpubr)
-library(dplyr)
-library(gridExtra)
-library(violinplotter)
-library(spatstat)
-library(ggpubr)
-library(tidyverse)
-library(RColorBrewer)
-library(tidyr)
-
-
 # upload the dataset
 Fig3BtoG.MannUtest <- readRDS("Fig3BtoG.MannUtest.rds")
 Fig3BtoG <- readRDS("Fig3BtoG.rds")
@@ -208,4 +188,5 @@ ggsave("Fig3H.png", plot = last_plot(), device = "png", path = "output", scale =
 ggsave("Fig3H.png", plot = last_plot(), device = "png", path = "output", scale = 1, width = 400, height = 300, units = "mm", dpi = 400, limitsize = TRUE)
 ################################################################################################################################################################
 #END Figure 3
+
 
