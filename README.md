@@ -1,1 +1,1 @@
-Colorectal Neoplasm: T-cell subset analysis in the Precursor Lesions and Carcinoma
+Colorectal Neoplasm: T-cell subset analysis in the precursor lesions and carcinoma
