@@ -1,5 +1,5 @@
 TITLE: T-cell Subset Analysis in Colorectal Neoplasms: From Precursor Lesions to Carcinoma
 
-COMMENT-1: Please, firstly, load functions and then run the R codes. If necessary, please add any required R packages or functions to make your R environment ready for this analysis.
+COMMENT-1: Please, firstly, load functions (R.precursor.functions.R) and then run the R codes. If necessary, please add any required R packages or functions to make your R environment ready for this analysis.
 
 COMMENT-2: Data Availability and Access. Further information about data availability and procedures for data access can be obtained by contacting the Program in Molecular Pathological Epidemiology (MPE) at the Department of Pathology, Brigham and Women's Hospital (Boston, MA, USA) through institutional communication channels.
